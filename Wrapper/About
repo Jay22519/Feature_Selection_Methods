@@ -1,1 +1,9 @@
+In wrapper methods, we try to use a subset of features and train a model using them. Based on the inferences that we draw from the previous model, we decide to add or remove features from the subset. The problem is essentially reduced to a search problem. These methods are usually computationally very expensive.
 
+Some common examples of wrapper methods are
+
+Forward selection,
+Backward elimination,
+Exhaustive feature selection,
+Recursive feature elimination.
+Recursive feature elimination with cross-validation
